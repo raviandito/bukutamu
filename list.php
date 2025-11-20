@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <table border="1" cellpadding="10" cellspacing="0" style="text-align: center;">
+    <table border="1" cellpadding="10" cellspacing="0" style="text-align: center; margin: 100px 0 0 380px;">
         <thead>
             <tr>
                 <th>No</th>
@@ -44,7 +44,8 @@
         }
         ?>
     </table>
-        <a href="proses.php">Input data kembali</a>
+        
+        <a href="proses.php" style="margin-left: 380px; text-decoration: none; color:blue">Input data kembali</a>
 </body>
 
 </html>

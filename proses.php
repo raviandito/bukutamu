@@ -15,16 +15,16 @@
 
         <div class="mb-3">
             <label for="nama" class="form-label">Nama</label>
-            <input type="text" class="form-control" name="nama">
+            <input type="text" class="form-control" name="nama" style="width: 50%;" required>
         </div>
         <div class="mb-3">
             <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" aria-describedby="emailHelp" name="email">
+            <input type="email" class="form-control" aria-describedby="emailHelp" name="email" style="width: 50%;" required>
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
             <label for="komentar" class="form-label">Komentar</label>
-            <input type="textarea" class="form-control" name="komentar">
+            <input type="textarea" class="form-control" name="komentar" style="width: 50%;" required>
         </div>
 
         <button type="submit" name="submit" class="btn btn-primary">Submit</button>
